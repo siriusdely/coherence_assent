@@ -45,7 +45,7 @@ defmodule CoherenceAssent.Mixfile do
 
   defp deps do
     [
-      {:coherence, "~> 0.5"},
+      {:coherence, github: "smpallen99/coherence"},
       {:oauth2, "~> 0.9"},
       {:oauther, "~> 1.1"},
 
